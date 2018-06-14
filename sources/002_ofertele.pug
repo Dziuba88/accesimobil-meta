@@ -1,0 +1,87 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Accesimobil e-Mail Template
+  body(style="margin:0;padding:0;background-color:#f4f3ee;color:#676767;font-size:16px;line-height:26px;font-family:'Segoe UI', 'Helvetica Neue', Arial, sans-serif")
+    table(width="100%",cellpadding="0",cellspacing="0",border="0")
+      tbody
+        tr
+          td &nbsp;
+          td(style="font-size:0;line-height:40px;color:#f4f3ee;background-color:#f4f3ee" width="600") {{hidden email intro text}}
+          td &nbsp;
+        tr
+          td &nbsp;
+          td(style="background-color:#ffffff;padding:40px 40px 0px;" width="600")
+            table(width="100%",cellpadding="0",cellspacing="0",border="0")
+              tbody
+                tr
+                  td(style="padding:0 0 10px;")
+                    a(href="http://www.accesimobil.md" target="_blank" style="text-decoration:none;")
+                      img(src="img/logo.png", alt="", style="border:none;width:140px;height:46px;")
+                tr
+                  td
+                    p(style="margin:0") Buna ziua,<br>Ofertele imobiliare noi potrivite criteriilor Dvs de căutare pot fi vizualizate mai jos: 
+          td &nbsp;
+        tr
+          td &nbsp;
+          td(style="background-color:#ffffff;padding:10px 30px 30px;" width="600")
+            table(width="100%",cellpadding="10",cellspacing="0",border="0")
+              tbody
+                - for(i=0;i<2;i++)
+                  tr
+                    - for(j=0;j<2;j++)
+                      td
+                        table(width="100%",cellpadding="0",cellspacing="0",border="0" style="background-color:#ffffff;-webkit-box-shadow:0 5px 20px rgba(0, 0, 0, 0.1);box-shadow:0 5px 20px rgba(0, 0, 0, 0.1)")
+                          tbody
+                            tr
+                              td: a(href="https://accesimobil.md/apartamente/detalii-apartament/?object_id=22023" target="_blank" style="color:#676767;text-decoration:none;")
+                                table(width="100%",cellpadding="0",cellspacing="0",border="0")
+                                  tbody
+                                    tr
+                                      td(colspan="4"): img(src="img/offer.png", alt="", style="border:none;width:100%;display:block;")
+                                    tr
+                                      td(style="font-size:12px;line-height:20px;text-align:center;padding:5px;border-bottom:1px solid #e7e7e8;" width="25%") 
+                                        span(style="color:#000000;font-weight:bold;") 3 &nbsp;
+                                        span(style="color:#676767;") + living
+                                      td(style="font-size:12px;line-height:20px;text-align:center;padding:5px;border-bottom:1px solid #e7e7e8;" width="25%") 
+                                        span(style="color:#000000;font-weight:bold;") 80 &nbsp;
+                                        span(style="color:#676767;") m2
+                                      td(style="font-size:12px;line-height:20px;text-align:center;padding:5px;border-bottom:1px solid #e7e7e8;" width="25%") 
+                                        span(style="color:#000000;font-weight:bold;") 3/5 &nbsp;
+                                        span(style="color:#676767;") etaj
+                                      td(style="font-size:12px;line-height:20px;text-align:center;padding:5px;border-bottom:1px solid #e7e7e8;" width="25%") 
+                                        span(style="color:#000000;font-weight:bold;") 1 &nbsp;
+                                        span(style="color:#676767;") bai
+                                    tr
+                                      td(colspan="4")
+                                        table(width="100%",cellpadding="10",cellspacing="0",border="0")
+                                          tbody
+                                            tr
+                                              td(style="color:#000000;font-weight:bold;font-size:14px;line-height:20px;" valign="top") Chisinau, Botanica, Traian
+                                              td(width="90" valign="top")
+                                                p(style="color:#ff6600;font-weight:bold;font-size:14px;line-height:20px;margin:0") 50 000 $
+                                                p(style="color:#a1a1a5;font-size:12px;line-height:15px;margin:0") Ipoteca<br>575 $ / luna
+          td &nbsp;
+        tr
+          td &nbsp;
+          td(style="background-color:#3e3e3d;padding:40px;font-size:14px;line-height:20px;" width="600")
+            table(width="100%",cellpadding="0",cellspacing="0",border="0")
+              tbody
+                tr
+                  td(style="padding:0 0 10px;" colspan="2")
+                    a(href="http://www.accesimobil.md" target="_blank" style="text-decoration:none;")
+                      img(src="img/logo2.png", alt="", style="border:none;width:100px;height:33px;")
+                tr
+                  td(width="60") Telefon:
+                  td(style="color:#ffffff") 078 888 900
+                tr
+                  td(width="60") Adresa:
+                  td(style="color:#ffffff") R. Moldova, mun. Chișinău, Grigore Vieru 12/1
+          td &nbsp;
+        tr
+          td &nbsp;
+          td(style="font-size:0;line-height:40px;color:#f4f3ee;background-color:#f4f3ee" width="600") &nbsp;
+          td &nbsp;
